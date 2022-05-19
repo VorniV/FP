@@ -2381,6 +2381,8 @@
     <bcf:citekey order="12">95</bcf:citekey>
     <bcf:citekey order="13">Pfeiffer</bcf:citekey>
     <bcf:citekey order="13">S.92</bcf:citekey>
+    <bcf:citekey order="14">V70</bcf:citekey>
+    <bcf:citekey order="15">V70</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

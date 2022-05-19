@@ -23,7 +23,15 @@
 \contentsline {subsection}{\numberline {3.2}Drehschieberpumpen Messungen}{9}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Evakuierungskurve}{9}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Leckratenmessung}{9}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}Auswertung}{10}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
-\contentsline {section}{\nonumberline Literatur}{10}{section*.5}%
+\contentsline {section}{\numberline {4}Auswertung}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fehlerrechnung}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Turbopumpe}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Evakuierungskurve}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Leckratenmessungen}{13}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Drehschieberpumpe}{18}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Evakuierungskurve}{18}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Leckratenmessungen}{22}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Diskussion}{30}{section.5}%
+\contentsline {section}{\nonumberline Literatur}{32}{section*.34}%
+\contentsline {section}{\numberline {A}Anhang}{32}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

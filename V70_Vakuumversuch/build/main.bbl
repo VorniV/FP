@@ -72,6 +72,16 @@
       \verb http://www.pfeiffer-vacuum.de/know-how/container.action
       \endverb
     \endentry
+    \entry{V70}{manual}{}
+      \list{organization}{1}{%
+        {Fakultät Phyik, TU Dortmund}%
+      }
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuchsanleitung: V70 Vakuumversuch}
+      \field{year}{2022}
+    \endentry
   \enddatalist
   \missing{61}
   \missing{63}
