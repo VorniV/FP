@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  20 MAY 2022 00:36
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  20 MAY 2022 01:19
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1717,19 +1717,19 @@ File: build/plots/leck_dreh_100.pdf Graphic file (type pdf)
 Package luatex.def Info: build/plots/leck_dreh_100.pdf  used on input line 598.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
  [29]) (./content/diskussion.tex
-<build/plots/saug_turbo.pdf, id=483, 417.7206pt x 258.0049pt>
+<build/plots/saug_turbo.pdf, id=485, 417.7206pt x 258.0049pt>
 File: build/plots/saug_turbo.pdf Graphic file (type pdf)
 <use build/plots/saug_turbo.pdf>
 Package luatex.def Info: build/plots/saug_turbo.pdf  used on input line 8.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
  [30<./build/plots/leck_dreh_100.pdf>]
-<build/plots/saug_dreh.pdf, id=508, 417.7206pt x 258.0049pt>
+<build/plots/saug_dreh.pdf, id=513, 417.7206pt x 258.0049pt>
 File: build/plots/saug_dreh.pdf Graphic file (type pdf)
 <use build/plots/saug_dreh.pdf>
 Package luatex.def Info: build/plots/saug_dreh.pdf  used on input line 18.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
  [31<./build/plots/saug_turbo.pdf>]) (./content/anhang.tex
-<data/orgdata.pdf, id=541, 597.23125pt x 845.1575pt>
+<data/orgdata.pdf, id=545, 597.23125pt x 845.1575pt>
 File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf>
 Package luatex.def Info: data/orgdata.pdf  used on input line 3.
@@ -1738,7 +1738,7 @@ File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf>
 Package luatex.def Info: data/orgdata.pdf  used on input line 3.
 (luatex.def)             Requested size: 597.22978pt x 845.15544pt.
-<data/orgdata.pdf, id=544, page=1, 597.23125pt x 845.1575pt>
+<data/orgdata.pdf, id=548, page=1, 597.23125pt x 845.1575pt>
 File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf, page 1>
 Package luatex.def Info: data/orgdata.pdf , page1 used on input line 3.
@@ -1761,7 +1761,7 @@ File: data/orgdata.pdf Graphic file (type pdf)
 Package luatex.def Info: data/orgdata.pdf , page1 used on input line 3.
 (luatex.def)             Requested size: 477.78564pt x 676.12692pt.
  [33<./data/orgdata.pdf>]
-<data/orgdata.pdf, id=586, page=2, 597.23125pt x 845.1575pt>
+<data/orgdata.pdf, id=589, page=2, 597.23125pt x 845.1575pt>
 File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf, page 2>
 Package luatex.def Info: data/orgdata.pdf , page2 used on input line 3.
@@ -1775,7 +1775,7 @@ File: data/orgdata.pdf Graphic file (type pdf)
 Package luatex.def Info: data/orgdata.pdf , page2 used on input line 3.
 (luatex.def)             Requested size: 477.78564pt x 676.12692pt.
  [34<./data/orgdata.pdf>]
-<data/orgdata.pdf, id=592, page=3, 597.23125pt x 845.1575pt>
+<data/orgdata.pdf, id=595, page=3, 597.23125pt x 845.1575pt>
 File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf, page 3>
 Package luatex.def Info: data/orgdata.pdf , page3 used on input line 3.
@@ -1789,7 +1789,7 @@ File: data/orgdata.pdf Graphic file (type pdf)
 Package luatex.def Info: data/orgdata.pdf , page3 used on input line 3.
 (luatex.def)             Requested size: 477.78564pt x 676.12692pt.
  [35<./data/orgdata.pdf>]
-<data/orgdata.pdf, id=598, page=4, 597.23125pt x 845.1575pt>
+<data/orgdata.pdf, id=601, page=4, 597.23125pt x 845.1575pt>
 File: data/orgdata.pdf Graphic file (type pdf)
 <use data/orgdata.pdf, page 4>
 Package luatex.def Info: data/orgdata.pdf , page4 used on input line 3.
@@ -1821,15 +1821,15 @@ Here is how much of LuaTeX's memory you used:
  100000,1977958 words of node,token memory allocated
  931 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 92 attribute, 82 glue_spec, 48 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:4051,3:530,4:182,5:616,6:108,7:9378,8:73,9:1177,10:27,11:700
+   avail lists: 1:3,2:4050,3:531,4:182,5:616,6:108,7:9378,8:73,9:1177,10:27,11:700
  55034 multiletter control sequences out of 65536+600000
  164 fonts using 58934427 bytes
  110i,24n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 </home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (36 pages, 1254580 bytes).
+Output written on main.pdf (36 pages, 1254892 bytes).
 
-PDF statistics: 796 PDF objects out of 1000 (max. 8388607)
- 602 compressed objects within 7 object streams
+PDF statistics: 799 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
  126 named destinations out of 1000 (max. 131072)
  273 words of extra memory for PDF output out of 10000 (max. 100000000)
 
