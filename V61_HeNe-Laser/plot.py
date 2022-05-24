@@ -9,7 +9,6 @@ import uncertainties.unumpy as unp
 # TEM00 -------------------------------------------------------------------------------------------
 
 r, I = np.genfromtxt('TEM00.txt', unpack=True)
-I = I * 1e3
 
 def exp1(r, I0, r0, w):
     return I0 * np.exp(-(r - r0)**2/(2*w**2)) + 0.2
@@ -47,7 +46,7 @@ r, I = np.genfromtxt('TEM01.txt', unpack=True)
 #I = I - np.min(I)
 
 def exp2(r, I0, r0, r1, w):
-    return I0 * 4* (r-r1)**2 * np.exp(-2*(r - r0)**2/(2*w**2)) + 0.2
+    return I0 * 4* (r-r1)**2 * np.exp(-2*(r - r0)**2/(2*w**2)) - 0.2
 
 par, cov = optimize.curve_fit(exp2, r, I)#, p0=[0.151, 0.5, 8])
         #I0 = ufloat(par[0], np.sqrt(cov[0][0]))
@@ -63,7 +62,7 @@ print(I0, r0, r1, w)
 rx = np.linspace(np.min(r)-3, np.max(r)+3, 1000)
 
 plt.plot(r, I, 'x', color='r', label='Daten TEM$_{01}$-Mode')
-plt.plot(rx, exp2(rx, I0, r0, w), '-', color='b', label='Ausgleichsrechnung')
+plt.plot(rx, exp2(rx, I0, r0, r1, w), '-', color='b', label='Ausgleichsrechnung')
 plt.xlim(np.min(r)-3, np.max(r)+3)
 plt.xlabel(r'Abstand $r$ (mm)')
 plt.ylabel(r'Intensität $I(r)$ ($\mu$W)')
@@ -106,11 +105,11 @@ plt.close()
 
 # Modendifferenz ------------------------------------------------------------------------------------
 
-Per Hand
+#Per Hand
 
 # Doppler-Verschiebung ------------------------------------------------------------------------------
 
-Per Hand
+#Per Hand
 
 # Bestimmung der Wellenlänge -------------------------------------------------------------------------
 
@@ -123,8 +122,8 @@ g1 = 80000   #Gitterkonstante (Passende Einheit!)
 g2 = 100000
 g3 = 600000
 g4 = 1200000
-L1 = 0.5   #Abstand Gitter-Schirm (Passende Einheit!)
-L2 = 0.3
+L1 = 50   #Abstand Gitter-Schirm (Passende Einheit!)
+L2 = 30
 
 def lam(n, d, L, g):
     return unp.sin( unp.tan(d/L) ) / (g * np.sqrt(n**2) )
@@ -133,17 +132,16 @@ lam1 = np.mean( lam(n1, d1, L1, g1) )
 lam2 = np.mean( lam(n2, d2, L1, g2) )
 lam3 = np.mean( lam(n3, d3, L2, g3) )
 lam4 = np.mean( lam(n4, d4, L2, g4) )
-f1 = (np.std (lam(n1, d1, L1, g1)) )**2
-f2 = (np.std (lam(n2, d2, L1, g2)) )**2
-f3 = (np.std (lam(n3, d3, L2, g3)) )**2
-f4 = (np.std (lam(n4, d4, L2, g4)) )**2
+f1 = (np.std (lam(n1, d1, L1, g1)) )
+f2 = (np.std (lam(n2, d2, L1, g2)) )
+f3 = (np.std (lam(n3, d3, L2, g3)) )
+f4 = (np.std (lam(n4, d4, L2, g4)) )
 
-lamges = (lam1 + lam2 +lam3 +lam4) / 4
-fges = f1 + f2 + f3 +f4
+a = np.array([lam1, lam2, lam3, lam4])
+lamges =np.mean(a)
+fges = (np.std(a))**2
 
-lamges2 = np.mean( lam(n1, d1, L1, g1), lam(n2, d2, L1, g2), lam(n3, d3, L2, g3), lam(n4, d4, L2, g4) )
-fges2 =(np.std( lam(n1, d1, L1, g1), lam(n2, d2, L1, g2), lam(n3, d3, L2, g3), lam(n4, d4, L2, g4)) )**2
 
-print(lam1, f1, lam2, f2, lam3, f3, lam4, f4, lamges, fges, lamges2, fges2)
+print(lam1, f1, lam2, f2, lam3, f3, lam4, f4, lamges, fges)
 #np.savetxt('auswertung.dat', np.column_stack([lam1, lam2, lamges]), header='l1, l2, lges')
 

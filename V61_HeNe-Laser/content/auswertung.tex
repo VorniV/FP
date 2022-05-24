@@ -9,20 +9,20 @@ die Bedingung,
 
 \begin{equation}
 \label{equ:}
-  0 \leq L \leq r_{konkav}
+  0 \leq L \leq r_{\text{konkav}}
 \end{equation}
 und für zwei konkave Spiegel,
 
 \begin{equation}
 \label{equ:}
-  0 \leq L \leq 2 \cdot r_{konkav}.
+  0 \leq L \leq 2 \cdot r_{\text{konkav}}.
 \end{equation}
 Für den ersten verwendeten Resonator mit einem planen Spiegel und einem konkaven Spiegel mit Krümmungsradius $r_1 = 140 \: cm$ gilt somit der 
-theoretische maximale Resonatorabstand von $L_{max} = 140 \: cm$.
-Bei dem zweiten Resonator mit zwei konkaven Spiegeln mit $g_2 = g_3 = 140 \: cm$ beträgt der Theoriewert $L_{max} = 280 \: cm$.
-Bei dem ersten Resonator konnte bei den Meesungen ein Laser bis zu einer Resonatorlänge von $L_{real} = 144,5 \: cm$ erzeugt werden,
+theoretische maximale Resonatorabstand von $L_{\text{max}} = 140 \: cm$.
+Bei dem zweiten Resonator mit zwei konkaven Spiegeln mit $g_2 = g_3 = 140 \: cm$ beträgt der Theoriewert $L_{\text{max}} = 280 \: cm$.
+Bei dem ersten Resonator konnte bei den Meesungen ein Laser bis zu einer Resonatorlänge von $L_{\text{real}} = 144,5 \: cm$ erzeugt werden,
 also größer als der theoretisch mögliche Wert.
-Beim zweiten Resonator bis $L_{real} = 217,5 \: cm$, da dort allerdings das Ende der Optischen Schiene war, konnte die Stabilitätsbedingung nicht weiter getestet werden.
+Beim zweiten Resonator bis $L_{\text{real}} = 217,5 \: cm$, da dort allerdings das Ende der Optischen Schiene war, konnte die Stabilitätsbedingung nicht weiter getestet werden.
 
 In Tabelle \ref{tab:1} sind die eingestellten Resonatorlängen mit entsprechenden Intensitäten angegeben.
 
@@ -53,19 +53,19 @@ In Tabelle \ref{tab:1} sind die eingestellten Resonatorlängen mit entsprechende
 Als TEM-Moden werden die Moden bezeichnet, welche in der Ebene senkrecht zur Ausbreitungsrichtung des Lasers, 
 die Intensitätsverteilung bestimmen. Also die transversalen Moden des Lasers.
 
-\subsubsection{Beobachung der TEM_{00}-Mode}
+\subsubsection{Beobachung der TEM$_{00}$-Mode}
 \label{sec:Beobachung der 00-Mode}
-Die theoretische Intensitätsverteilung der $\text{TEM_{00}-Mode}$ entspricht einer Gaußverteilung. Daher werden die Messdaten aus Tabelle \ref{tab:TEM00} im Graphen \ref{fig:TEM00} geplottet,
+Die theoretische Intensitätsverteilung der TEM$_{00}$-Mode entspricht einer Gaußverteilung. Daher werden die Messdaten aus Tabelle \ref{tab:TEM00} im Graphen \ref{fig:TEM00} geplottet,
 so wie eine entsprechend der Daten gefittete Gaußfunktion. Die Form der Gußfunktion sieht wie folgt aus:
 
 \begin{equation}
 \label{equ:}
-  I_{00}(r) = I_0 \cdot exp \left(- \frac{(r - r_0)^2}{2 \omega^2}\right) + I_{off}
+  I_{00}(r) = I_0 \cdot exp \left(- \frac{(r - r_0)^2}{2 \omega^2}\right) + I_{\text{off}}
 \end{equation}
-Mit dem Offser $I_{off} = 0,2 \: \si{\micro\watt}$ und den Parametern:
-$I_0 = EINFÜGEN$
-$r_0 = EINFÜGEN$
-$\omega = EINFÜGEN$
+Mit dem Offser $I_{\text{off}} = 0,2 \: \si{\micro\watt}$ und den Parametern:\\
+$I_0 = 32,32 \si{\micro\watt}$ \\
+$r_0 = 3.07 \si{\milli\meter}$ \\
+$\omega = 3,99 \si{\milli\meter}$
 
 
 \begin{table}[H]
@@ -112,7 +112,7 @@ $\omega = EINFÜGEN$
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.65]{content/TEM00.pdf}
+  \includegraphics[scale=0.65]{TEM00.pdf}
   \vspace{-10pt}
   \caption{Intensitätsverteilung $I(r)$ der TEM$_{00}$-Mode.}
   \label{fig:TEM00}
@@ -122,14 +122,19 @@ $\omega = EINFÜGEN$
 \subsubsection{Beobachtung der TEM$_{10}$-Mode}
 \label{sec:Beobachtung der EINFÜGEN-Mode}
 Um die 10-Mode messen zu können wird ein dünner Draht in den Resonator gebracht.
-Dieser Draht verursacht eine Störung der Moden und unterdrückt diese somit. Befindet sich der Draht genau an der Stelle eines Maximums der Grundmode $\text{TEM_{00}}$, so wird diese maximal gestört.
+Dieser Draht verursacht eine Störung der Moden und unterdrückt diese somit. Befindet sich der Draht genau an der Stelle eines \text{imu}ms der Grundmode TEM$_{00}$, so wird diese \text{ima}l gestört.
 Gleichzeitig wird die 10-Mode minimal gestört, da sich an der stelle des Drahtes gerade ein Minimum dieser Mode befindet. Dies führt dazu, dass die 10-Mode beobachtet werden kann.
 Die Messwerte der Intensitätsverteilung der TEM$_{10}$-Mode sind in Tabelle \ref{tab:TEM10} aufgelistet. Diese sind nicht einfach Gaußförmig und werden entsprechend der Funktion
 
 \begin{equation}
-  I_01(r) = I_0 \cdot \frac{8 (r - r_0)^2}{\omega^2} \cdot \left( - \frac{2 (r - r_0)^2}{\omega^2}\right) + I_{off},
+  I_{01}(r) = I_0 \cdot 4 (r - r_1)^2 \cdot exp \left( - \frac{2 (r - r_0)^2}{2 \omega^2}\right) + I_{\text{off}},
 \end{equation}
 gefittet. Die Gefittete Funktion und die Messdaten sind in Graph \ref{fig:TEM01} abggebildet.
+Die entsprechenden Parameter sind: \\
+$I_0 = 0,06 \si{\micro\watt}$ \\
+$r_0 = 3,01 \si{\milli\meter}$ \\
+$r_1 = 3,12 \si{\milli\meter}$ \\
+$w = 5,63 \si{\milli\meter}$ \\
 
 
 \begin{table}[H]
@@ -177,7 +182,7 @@ gefittet. Die Gefittete Funktion und die Messdaten sind in Graph \ref{fig:TEM01}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.65]{content/TEM01.pdf}
+  \includegraphics[scale=0.65]{TEM01.pdf}
   \vspace{-10pt}
   \caption{Intensitätsverteilung $I(r)$ der TEM$_{01}$-Mode.}
   \label{fig:TEM01}
@@ -191,13 +196,13 @@ Die Intensitätsverteilung sollte einer Funktion der Form,
 
 \begin{equation}
 \label{equ:}
-  I(\phi) = I_0 \cdot cos^2((\phi + \phi_0) \cdot \frac{2 \pi}{360^{\circ}}),
+  I(\phi) = I_0 \cdot cos^2 \left((\phi + \phi_0) \cdot \frac{2 \pi}{360^{\circ}}\right),
 \end{equation}
 gleichen.
 Daher wird eine entsprechende Funktion entsprechend der Messwerte gefittet und in Graph \ref{fig:pol}, zusammen mit den Messwerten eingetragen.
-Die Parameter die sich für die Funktion ergeben sind:
-$I_0 = EINFÜGEN$
-$\phi_0 = EINFÜGEN$
+Die Parameter die sich für die Funktion ergeben sind: \\
+$I_0 = 851,14 \si{\milli\watt}$ \\
+$\phi_0 = 89,74^{\circ}$ 
 
 
 \begin{table}[H]
@@ -236,7 +241,7 @@ $\phi_0 = EINFÜGEN$
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.65]{content/pol.pdf}
+  \includegraphics[scale=0.65]{pol.pdf}
   \vspace{-10pt}
   \caption{Intensitätsverteilung $I(\phi)$ in Abhängigkeit vom Polarisationswinkel $\phi$.}
   \label{fig:pol}
@@ -267,7 +272,7 @@ Die mit der Modendifferenz zu vergleichende Verbreiterung des Neonübergangs, du
   \partial f_D = \frac{f_0}{c} \sqrt{\frac{8 k_B T ln(2)}{m}},
 \end{equation}
 bei einer Raumtemperatur von $T=300 \: K$, zu 
-$\partial f_D = 1308,21$ \: MHz
+$\partial f_D = 1308,21$ MHz
 berechnet. 
 
 
@@ -315,8 +320,8 @@ berechnet.
 \subsection{Bestimmung der Wellenlänge}
 \label{sec:Bestimmung der Wellenlänge}
 Die Wellenlänge des Lasers kann durch Beugungsmuster an einem Spalt bzw. Gitter bestimmt werden. 
-Dazu werden die Abstände $d_n$ der Beugungsmaxima zur optischen Achse gemessen.
-Diese Abstände sind in Tabelle \ref{fig:wel} aufgelistet.
+Dazu werden die Abstände $d_n$ der Beugungs\text{ima} zur optischen Achse gemessen.
+Diese Abstände sind in Tabelle \ref{tab:wel} aufgelistet.
 
 Aus diesen Abständen und dem Abstand zwischen Gitter und Schirm $l$, kann durch
 
@@ -324,13 +329,13 @@ Aus diesen Abständen und dem Abstand zwischen Gitter und Schirm $l$, kann durch
   \lambda = \frac{sin \left(tan \left(\frac{d_n}{l}\right)\right)}{n \cdot g}
 \end{equation}
 die Wellenlänge bestimmt werden. Dabei ist $g$ der Gitterabstand. 
+Die so berechneten Wellenlängen ergeben für die Gitter mit $l = 50$ cm einen Mittelwert von \\
+$\lambda_1 = 705,62 \pm 40,95 \si{\nano\meter}$ \\
+$\lambda_2 = 689,87 \pm 50,41 \si{\nano\meter}$ \\
+und für die Gitter, die mit $l = 30$ cm benutzt wurden: \\
+$\lambda_3 = 191,15 \pm 13,73 \si{\nano\meter}$ \\
+$\lambda_4 = 95,58 \pm 6,87 \si{\nano\meter}$ \\
 
-Die so berechneten Wellenlängen ergeben für das erste Gitter einen Mittelwert von 
-$\lambda = EINFÜGEN$ 
-und für das zweite Gitter
-$\lambda = EINFÜGEN$.
-Der gesamte Mitterwert für die Wellenlänge des Lasers ist somit
-$\lambda = EINFÜGEN$.
 
 
 \begin{table}[H]
