@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  20 MAY 2022 01:19
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  20 MAY 2022 01:26
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1823,10 +1823,10 @@ Here is how much of LuaTeX's memory you used:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 92 attribute, 82 glue_spec, 48 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:3,2:4050,3:531,4:182,5:616,6:108,7:9378,8:73,9:1177,10:27,11:700
  55034 multiletter control sequences out of 65536+600000
- 164 fonts using 58934427 bytes
+ 164 fonts using 58934915 bytes
  110i,24n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 </home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (36 pages, 1254892 bytes).
+Output written on main.pdf (36 pages, 1254687 bytes).
 
 PDF statistics: 799 PDF objects out of 1000 (max. 8388607)
  605 compressed objects within 7 object streams
