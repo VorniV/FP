@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  24 MAY 2022 15:53
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.12)  1 JUN 2022 13:29
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1479,76 +1479,75 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
 ] (./content/theorie.tex) (./content/durchfuehrung.tex) (./content/auswertung.tex
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 33.
+(Font)              scaled to size 5.00053pt on input line 38.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 33.
+(Font)              scaled to size 4.99947pt on input line 38.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 35.
+(Font)              scaled to size 9.00096pt on input line 40.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 35.
+(Font)              scaled to size 6.00064pt on input line 40.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 35.
+(Font)              scaled to size 8.99904pt on input line 40.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 35.
+(Font)              scaled to size 5.99936pt on input line 40.
+ [3]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `subscript' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 56.
+(hyperref)                removing `math shift' on input line 61.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 56.
-
-[3]
-<TEM00.pdf, id=75, 417.7206pt x 258.0049pt>
+<TEM00.pdf, id=76, 417.7206pt x 258.0049pt>
 File: TEM00.pdf Graphic file (type pdf)
 <use TEM00.pdf>
-Package luatex.def Info: TEM00.pdf  used on input line 115.
+Package luatex.def Info: TEM00.pdf  used on input line 108.
 (luatex.def)             Requested size: 271.51517pt x 167.70119pt.
- [4]
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 122.
+(hyperref)                removing `math shift' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `subscript' on input line 115.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--138
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 115.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
  []
 
 [5<./TEM00.pdf>]
-<TEM01.pdf, id=118, 417.7206pt x 258.0049pt>
+<TEM01.pdf, id=119, 417.7206pt x 258.0049pt>
 File: TEM01.pdf Graphic file (type pdf)
 <use TEM01.pdf>
-Package luatex.def Info: TEM01.pdf  used on input line 185.
+Package luatex.def Info: TEM01.pdf  used on input line 166.
 (luatex.def)             Requested size: 271.51517pt x 167.70119pt.
  [6<./TEM01.pdf>]
-<pol.pdf, id=149, 417.7206pt x 258.0049pt>
+<pol.pdf, id=155, 417.7206pt x 258.0049pt>
 File: pol.pdf Graphic file (type pdf)
 <use pol.pdf>
-Package luatex.def Info: pol.pdf  used on input line 244.
+Package luatex.def Info: pol.pdf  used on input line 215.
 (luatex.def)             Requested size: 271.51517pt x 167.70119pt.
- [7] [8<./pol.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 331--339
+ [7<./pol.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 302--310
 
  []
 
-) (./content/diskussion.tex [9] [10]) [11] (./build/main.aux)
+[8]) (./content/diskussion.tex [9]) [10] [11] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: CEB0F13EFCE401B86EC869F35E14CC26;13828.
+(rerunfilecheck)             Checksum: 9C9C0271642BFD2472FD06AE593332AF;13825.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 6BF03984A8E17DE2774005DDA25F0810;1607.
+(rerunfilecheck)             Checksum: 838E7A106BC29FBE5840408D14E5CB3F;1604.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1559,19 +1558,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35668 strings out of 479059
+ 35669 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 787 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 46 attribute, 82 glue_spec, 25 attribute_list, 1 write nodes
-   avail lists: 1:3,2:1305,3:249,4:57,5:356,6:53,7:5638,8:56,9:556,10:27,11:630
+ 799 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 50 attribute, 82 glue_spec, 27 attribute_list, 1 write nodes
+   avail lists: 1:3,2:957,3:249,4:61,5:423,6:53,7:6304,8:56,9:497,10:27,11:709
  53906 multiletter control sequences out of 65536+600000
  185 fonts using 67492539 bytes
  98i,16n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 </home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/jannis/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (11 pages, 108729 bytes).
+Output written on main.pdf (11 pages, 110204 bytes).
 
-PDF statistics: 334 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 131072)
+PDF statistics: 335 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

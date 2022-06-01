@@ -4,22 +4,27 @@
 \subsection{Überprüfen der Stabilitätsbesingung}
 \label{sec:Überprüfen der Stabilitätsbesingung}
 
-Für die Stabilitätsbedingung gilt Gleichung 1EINFÜGEN, daraus ergibt sich für einen Resonator bestehend aus einem planen und einem konkaven Spiegel, 
+Für die Stabilitätsbedingung gilt 
+\begin{equation}
+  0 < g_1 \cdot g_2 = \left(1 - \frac{L}{r_1}\right) \cdot \left(1- \frac{L}{r_2}\right) < 1,
+\end{equation}
+mit dem Abstand L, der beiden Spiegel zueinander und r$_i$ den Krümmungsradien der Spiegel.
+Daraus ergibt sich für einen Resonator bestehend aus einem planen und einem konkaven Spiegel, 
 die Bedingung,
 
 \begin{equation}
 \label{equ:}
-  0 \leq L \leq r_{\text{konkav}}
+  0 < L < r_{\text{konkav}}
 \end{equation}
 und für zwei konkave Spiegel,
 
 \begin{equation}
 \label{equ:}
-  0 \leq L \leq 2 \cdot r_{\text{konkav}}.
+  0 < L < 2 \cdot r_{\text{konkav}}.
 \end{equation}
 Für den ersten verwendeten Resonator mit einem planen Spiegel und einem konkaven Spiegel mit Krümmungsradius $r_1 = 140 \: cm$ gilt somit der 
 theoretische maximale Resonatorabstand von $L_{\text{max}} = 140 \: cm$.
-Bei dem zweiten Resonator mit zwei konkaven Spiegeln mit $g_2 = g_3 = 140 \: cm$ beträgt der Theoriewert $L_{\text{max}} = 280 \: cm$.
+Bei dem zweiten Resonator mit zwei konkaven Spiegeln mit $r_2 = r_3 = 140 \: cm$ beträgt der Theoriewert $L_{\text{max}} = 280 \: cm$.
 Bei dem ersten Resonator konnte bei den Meesungen ein Laser bis zu einer Resonatorlänge von $L_{\text{real}} = 144,5 \: cm$ erzeugt werden,
 also größer als der theoretisch mögliche Wert.
 Beim zweiten Resonator bis $L_{\text{real}} = 217,5 \: cm$, da dort allerdings das Ende der Optischen Schiene war, konnte die Stabilitätsbedingung nicht weiter getestet werden.
@@ -56,16 +61,16 @@ die Intensitätsverteilung bestimmen. Also die transversalen Moden des Lasers.
 \subsubsection{Beobachung der TEM$_{00}$-Mode}
 \label{sec:Beobachung der 00-Mode}
 Die theoretische Intensitätsverteilung der TEM$_{00}$-Mode entspricht einer Gaußverteilung. Daher werden die Messdaten aus Tabelle \ref{tab:TEM00} im Graphen \ref{fig:TEM00} geplottet,
-so wie eine entsprechend der Daten gefittete Gaußfunktion. Die Form der Gußfunktion sieht wie folgt aus:
+so wie eine entsprechend der Daten gefittete Gaußfunktion. Die Form der Gaußfunktion sieht wie folgt aus:
 
 \begin{equation}
 \label{equ:}
   I_{00}(r) = I_0 \cdot exp \left(- \frac{(r - r_0)^2}{2 \omega^2}\right) + I_{\text{off}}
 \end{equation}
-Mit dem Offser $I_{\text{off}} = 0,2 \: \si{\micro\watt}$ und den Parametern:\\
-$I_0 = 32,32 \si{\micro\watt}$ \\
-$r_0 = 3.07 \si{\milli\meter}$ \\
-$\omega = 3,99 \si{\milli\meter}$
+Mit dem Offset $I_{\text{off}} = 0,2 \: \si{\micro\watt}$ und den Parametern:\\
+$I_0 = 32,32 \: \si{\micro\watt}$ \\
+$r_0 = 3.07 \: \si{\milli\meter}$ \\
+$\omega = 3,99 \: \si{\milli\meter}$
 
 
 \begin{table}[H]
@@ -73,39 +78,27 @@ $\omega = 3,99 \si{\milli\meter}$
   \footnotesize
   \caption{Messwerte der Intensität $I(r)$ der TEM$_{00}$-Mode.}
   \label{tab:TEM00}
-  \begin{tabular}{r r}
+  \begin{tabular}{r r | r r}
   \toprule
-  $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$ \\
+  $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$ & $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$\\
   \midrule
--11 & -0.06   \\
--10 & 0.12    \\
--9  & 0.47    \\
--8  &  0.84   \\
--7  &  1.7    \\
--6  &  2.9    \\
--5  &  4.6    \\
--4  &  7    \\
--3  &  10   \\
--2  &  14   \\
--1  &  19   \\
-0   &  26   \\
-1   &  29   \\
-2   &  30   \\
-3   &  32   \\
-4   &  32   \\
-5   &  29   \\
-6   &  25   \\
-7   &  20   \\
-8   &  16   \\
-9   &  11   \\
-10  &  7    \\
-11  &  4,4    \\
-12  &  2,6    \\
-13  &  1,4    \\
-14  &  0,66   \\
-15  &  0,23   \\
-15  &  -0,01    \\
-16  &  -0,13    \\
+-11 & -0.06   &  1   &  29   \\
+-10 & 0.12    &  2   &  30   \\
+-9  & 0.47    &  3   &  32   \\
+-8  &  0.84   &  4   &  32   \\
+-7  &  1.7    &  5   &  29   \\
+-6  &  2.9    & 6   &  25   \\
+-5  &  4.6    &  7   &  20   \\
+-4  &  7      &  8   &  16   \\
+-3  &  10     &  9   &  11   \\
+-2  &  14     &  10  &  7    \\
+-1  &  19     &  11  &  4,4    \\
+0   &  26     &  12  &  2,6    \\
+    &         &  13  &  1,4    \\
+    &         &  14  &  0,66   \\
+    &         &  15  &  0,23   \\
+    &         &  15  &  -0,01    \\
+    &         &  16  &  -0,13    \\
   \bottomrule
   \end{tabular}
 \end{table}
@@ -122,19 +115,19 @@ $\omega = 3,99 \si{\milli\meter}$
 \subsubsection{Beobachtung der TEM$_{10}$-Mode}
 \label{sec:Beobachtung der EINFÜGEN-Mode}
 Um die 10-Mode messen zu können wird ein dünner Draht in den Resonator gebracht.
-Dieser Draht verursacht eine Störung der Moden und unterdrückt diese somit. Befindet sich der Draht genau an der Stelle eines \text{imu}ms der Grundmode TEM$_{00}$, so wird diese \text{ima}l gestört.
-Gleichzeitig wird die 10-Mode minimal gestört, da sich an der stelle des Drahtes gerade ein Minimum dieser Mode befindet. Dies führt dazu, dass die 10-Mode beobachtet werden kann.
+Dieser Draht verursacht eine Störung der Moden und unterdrückt diese somit. Befindet sich der Draht genau an der Stelle eines Maximums der Grundmode TEM$_{00}$, so wird diese maximal gestört.
+Gleichzeitig wird die 10-Mode minimal gestört, da sich an der Stelle des Drahtes gerade ein Minimum dieser Mode befindet. Dies führt dazu, dass die 10-Mode beobachtet werden kann.
 Die Messwerte der Intensitätsverteilung der TEM$_{10}$-Mode sind in Tabelle \ref{tab:TEM10} aufgelistet. Diese sind nicht einfach Gaußförmig und werden entsprechend der Funktion
 
 \begin{equation}
   I_{01}(r) = I_0 \cdot 4 (r - r_1)^2 \cdot exp \left( - \frac{2 (r - r_0)^2}{2 \omega^2}\right) + I_{\text{off}},
 \end{equation}
-gefittet. Die Gefittete Funktion und die Messdaten sind in Graph \ref{fig:TEM01} abgebildet.
+gefittet. Die gefittete Funktion und die Messdaten sind in Graph \ref{fig:TEM01} abgebildet.
 Die entsprechenden Parameter sind: \\
-$I_0 = 0,06 \si{\micro\watt}$ \\
-$r_0 = 3,01 \si{\milli\meter}$ \\
-$r_1 = 3,12 \si{\milli\meter}$ \\
-$w = 5,63 \si{\milli\meter}$ \\
+$I_0 = 0,06 \: \si{\micro\watt}$ \\
+$r_0 = 3,01 \: \si{\milli\meter}$ \\
+$r_1 = 3,12 \: \si{\milli\meter}$ \\
+$w = 5,63 \: \si{\milli\meter}$ \\
 
 
 \begin{table}[H]
@@ -142,39 +135,27 @@ $w = 5,63 \si{\milli\meter}$ \\
   \footnotesize
   \caption{Messwerte der Intensität $I(r)$ der TEM$_{10}$-Mode abhängig vom Modenmittenabstand $r$.}
   \label{tab:TEM10}
-  \begin{tabular}{r r}
+  \begin{tabular}{r r | r r}
   \toprule
-  $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$ \\
+  $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$ & $r \;/\; \si{\milli\meter}$ & $I \;/\; \si{\micro\watt}$ \\
   \midrule
-    -11 & -0,02 \\
-    -10 & 0,11  \\
-    -9  & 0,33  \\
-    -8  & 0,57  \\
-    -7  & 0,9   \\
-    -6  & 1,4   \\
-    -5  & 1,9   \\
-    -4  & 2,3   \\
-    -3  & 2,8   \\
-    -2  & 2,8   \\
-    -1  & 2,5   \\
-    0   & 1,4   \\
-    1   & 0,8   \\
-    2   & 0,14  \\
-    3   & -0,17 \\
-    4   & 0,07  \\
-    5   & 0,68  \\
-    6   & 1,7   \\
-    7   & 2,2   \\
-    8   & 2,3   \\
-    9   & 2,4   \\
-    10  & 2,2   \\
-    11  & 1,7   \\
-    12  & 1,3   \\
-    13  & 0,99  \\
-    14  & 0,58  \\
-    15  & 0,26  \\
-    16  & 0,03  \\
-    17  & -0,1  \\
+    -11 & -0,02 &  1   & 0,8   \\
+    -10 & 0,11  &  2   & 0,14  \\
+    -9  & 0,33  &  3   & -0,17 \\
+    -8  & 0,57  &   4   & 0,07  \\
+    -7  & 0,9   &  5   & 0,68  \\
+    -6  & 1,4   &  6   & 1,7   \\
+    -5  & 1,9   &  7   & 2,2   \\
+    -4  & 2,3   &  8   & 2,3   \\
+    -3  & 2,8   &  9   & 2,4   \\
+    -2  & 2,8   &  10  & 2,2   \\
+    -1  & 2,5   &  11  & 1,7   \\
+    0   & 1,4   &  12  & 1,3   \\
+        & 	    &  13  & 0,99  \\
+        & 	    &  14  & 0,58  \\
+        & 	    &  15  & 0,26  \\
+        & 	    &  16  & 0,03  \\
+        & 	    &  17  & -0,1  \\
   \bottomrule
   \end{tabular}
 \end{table}
@@ -190,8 +171,8 @@ $w = 5,63 \si{\milli\meter}$ \\
 
 
 \subsection{Bestimmung der Polarisation}
-\label{sec:estimmung der Polarisation}
-Die Daten der Polarisationsmessung, also die gemessenen Intensitäten in abhängigkeit vom Polarisationswinkel, sind in Tabelle \ref{tab:pol} aufgelistet.
+\label{sec:bestimmung der Polarisation}
+Die Daten der Polarisationsmessung, also die gemessenen Intensitäten in Abhängigkeit vom Polarisationswinkel, sind in Tabelle \ref{tab:pol} aufgelistet.
 Die Intensitätsverteilung sollte einer Funktion der Form,
 
 \begin{equation}
@@ -201,7 +182,7 @@ Die Intensitätsverteilung sollte einer Funktion der Form,
 gleichen.
 Daher wird eine entsprechende Funktion entsprechend der Messwerte gefittet und in Graph \ref{fig:pol}, zusammen mit den Messwerten eingetragen.
 Die Parameter die sich für die Funktion ergeben sind: \\
-$I_0 = 851,14 \si{\milli\watt}$ \\
+$I_0 = 851,14 \: \si{\milli\watt}$ \\
 $\phi_0 = 89,74^{\circ}$ 
 
 
@@ -210,30 +191,20 @@ $\phi_0 = 89,74^{\circ}$
   \footnotesize
   \caption{Messwerte der Intensität $I(\phi)$ abhängig vom Polarisationswinkel $\phi$.}
   \label{tab:pol}
-  \begin{tabular}{r r}
+  \begin{tabular}{r r | r r}
   \toprule
-  $\phi \;/\; \si{\degree}$ & $I \;/\; \si{\micro\watt}$ \\
+  $\phi \;/\; \si{\degree}$ & $I \;/\; \si{\micro\watt}$  &  $\phi \;/\; \si{\degree}$ & $I \;/\; \si{\micro\watt}$\\
   \midrule
-    0   & 0,82 \\
-    10  & 26   \\ 
-    20  & 115  \\
-    30  & 230  \\
-    40  & 270  \\
-    50  & 450  \\
-    60  & 650  \\
-    70  & 780  \\
-    80  & 840  \\
-    90  & 860  \\
-    100 & 830  \\
-    110 & 770  \\
-    120 & 630  \\
-    130 & 490  \\
-    140 & 340  \\
-    150 & 200  \\
-    160 & 90   \\
-    170 & 22   \\
-    180 & 0,9  \\
-    190 & 32   \\
+    0   & 0,82 &  100 & 830  \\
+    10  & 26   &  110 & 770  \\
+    20  & 115  &  120 & 630  \\
+    30  & 230  &  130 & 490  \\
+    40  & 270  &  140 & 340  \\
+    50  & 450  &  150 & 200  \\
+    60  & 650  &  160 & 90   \\
+    70  & 780  &  170 & 22   \\
+    80  & 840  &  180 & 0,9  \\
+    90  & 860  &  190 & 32   \\
   \bottomrule
   \end{tabular}
 \end{table}
@@ -302,7 +273,7 @@ berechnet.
 \begin{table}[H]
   \centering
   \footnotesize
-  \caption{Frequenzdifferenz Messwerte und Theoriewerte.}
+  \caption{Frequenzdifferenz: Messwerte und Theoriewerte.}
   \label{tab:lon2}
   \begin{tabular}{r r r}
   \toprule
@@ -321,7 +292,7 @@ berechnet.
 \subsection{Bestimmung der Wellenlänge}
 \label{sec:Bestimmung der Wellenlänge}
 Die Wellenlänge des Lasers kann durch Beugungsmuster an einem Spalt bzw. Gitter bestimmt werden. 
-Dazu werden die Abstände $d_n$ der Beugungs\text{ima} zur optischen Achse gemessen.
+Dazu werden die Abstände $d_n$ der Beugungsmaxima zur optischen Achse gemessen.
 Diese Abstände sind in Tabelle \ref{tab:wel} aufgelistet.
 
 Aus diesen Abständen und dem Abstand zwischen Gitter und Schirm $l$, kann durch
@@ -331,11 +302,11 @@ Aus diesen Abständen und dem Abstand zwischen Gitter und Schirm $l$, kann durch
 \end{equation}
 die Wellenlänge bestimmt werden. Dabei ist $g$ der Gitterabstand. 
 Die so berechneten Wellenlängen ergeben für die Gitter mit $l = 50$ cm einen Mittelwert von \\
-$\lambda_1 = 705,62 \pm 40,95 \si{\nano\meter}$ \\
-$\lambda_2 = 689,87 \pm 50,41 \si{\nano\meter}$ \\
+$\lambda_1 = 705,62 \: \pm 40,95 \si{\nano\meter}$ \\
+$\lambda_2 = 689,87 \: \pm 50,41 \si{\nano\meter}$ \\
 und für die Gitter, die mit $l = 30$ cm benutzt wurden: \\
-$\lambda_3 = 191,15 \pm 13,73 \si{\nano\meter}$ \\
-$\lambda_4 = 95,58 \pm 6,87 \si{\nano\meter}$ \\
+$\lambda_3 = 191,15 \: \pm 13,73 \si{\nano\meter}$ \\
+$\lambda_4 = 95,58 \: \pm 6,87 \si{\nano\meter}$ \\
 
 
 
