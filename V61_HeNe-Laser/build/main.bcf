@@ -2351,7 +2351,12 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">sample</bcf:citekey>
+    <bcf:citekey order="1">emission</bcf:citekey>
+    <bcf:citekey order="2">emission</bcf:citekey>
+    <bcf:citekey order="3">laser</bcf:citekey>
+    <bcf:citekey order="4">laser</bcf:citekey>
+    <bcf:citekey order="5">V61</bcf:citekey>
+    <bcf:citekey order="6">V61</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
