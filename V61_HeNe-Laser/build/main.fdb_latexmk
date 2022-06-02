@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1654129025 "build/main.bcf" "build/main.bbl" "build/main" 1654129102
-  "build/main.bcf" 1654129099 107462 3ed9e8408070ae845bfd0be38813b93e "lualatex"
+["biber build/main"] 1654129025 "build/main.bcf" "build/main.bbl" "build/main" 1654129523
+  "build/main.bcf" 1654129521 107462 3ed9e8408070ae845bfd0be38813b93e "lualatex"
   "lit.bib" 1654126986 615 ffc5e9363980b0b331675ab986535bde ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1654129070 "main.tex" "build/main.pdf" "main" 1654129102
+  "build/main.blg"
+["lualatex"] 1654129499 "main.tex" "build/main.pdf" "main" 1654129523
   "/home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -234,13 +234,13 @@
   "/home/gusfring/.local/texlive/2020/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1603127666 1227053 1191ad950ec95f12827e222befaed2ab ""
   "/home/gusfring/.local/texlive/2020/texmf-var/tex/generic/config/language.dat" 1602542581 6633 e4a8841a0a231a6680e3df1dc1ffebc8 ""
   "/home/gusfring/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1603643323 3218682 0236710edadc15aa82c15ec403419068 ""
-  "TEM00.pdf" 1654128944 12364 aa7096b16ecf9d66181e3578c8c2f57d ""
-  "TEM01.pdf" 1654128956 13011 c8a9dc699e5f1753ad267da4a9958645 ""
-  "build/main.aux" 1654129099 18824 0df5cb655c231006915581687d797e54 "lualatex"
+  "TEM00.pdf" 1654129452 12364 968c8f9c990d4ae3cf261db4933fe22f ""
+  "TEM01.pdf" 1654129464 13011 37b859e6a324cd699a5b13cecd426c6f ""
+  "build/main.aux" 1654129521 18824 86421df205e5d6620361da2f3207aa0d "lualatex"
   "build/main.bbl" 1654129034 2663 40dab177b816e95c3d2f778113a569d1 "biber build/main"
-  "build/main.run.xml" 1654129099 2434 1d5f4697e64f371885ba93cf77691ae0 "lualatex"
-  "build/main.toc" 1654129099 2177 df2808aa98c489c0c893dd5e6e63cef4 "lualatex"
-  "content/auswertung.tex" 1654128179 11905 64f1225f013119a389d48a2804ddd8b0 ""
+  "build/main.run.xml" 1654129521 2434 1d5f4697e64f371885ba93cf77691ae0 "lualatex"
+  "build/main.toc" 1654129521 2177 7e5a78b02b1c786f857d90c859124da2 "lualatex"
+  "content/auswertung.tex" 1654129419 11905 ab1a167132c0cc954cf7816b6561b580 ""
   "content/diskussion.tex" 1654128179 3991 3360dafa927902bb1117a3983c8cb57e ""
   "content/durchfuehrung.tex" 1654126986 3465 df7e36fd80fb2a0ca0d3cc5a9b4052cb ""
   "content/theorie.tex" 1654126986 3595 59874f8916c582990f45310f6e1db05a ""
@@ -248,12 +248,12 @@
   "images/HeNeAufbau.JPG" 1654126986 46093 89c1c0b3fa5baea0764b549ab16e7db4 ""
   "images/emission.JPG" 1654126986 23026 f14dfe77b643d453adb9eda1c88e1257 ""
   "images/niveaus.JPG" 1654126986 30441 901a23c04367be405cd8ecfad8d660fd ""
-  "main.tex" 1654128179 369 9998ce00c274f2ae7b09471346cd6ee0 ""
-  "pol.pdf" 1654128969 10926 25241ce2e5653019bcaa8a3c60f6b228 ""
+  "main.tex" 1654129419 369 8bca44ed87dd9c0318d5332cfb3ae0ae ""
+  "pol.pdf" 1654129475 10926 8b6fa49a537c456eaa4ebcd14d970ee4 ""
   (generated)
   "build/main.toc"
   "build/main.pdf"
   "build/main.bcf"
   "build/main.run.xml"
-  "build/main.aux"
   "build/main.log"
+  "build/main.aux"

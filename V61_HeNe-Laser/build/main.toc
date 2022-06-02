@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {3.4}Bestimmung der Polarisation}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Bestimmung der Wellenlänge}{6}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Auswertung}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Überprüfen der Stabilitätsbesingung}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Überprüfen der Stabilitätsbedingung}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Beobachtung von TEM-Moden}{7}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Beobachung der TEM$_{00}$-Mode}{7}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Beobachtung der TEM$_{10}$-Mode}{8}{subsubsection.4.2.2}%
