@@ -1,0 +1,97 @@
+; (content of file C:\Users\Michael\Desktop\PP_080622\zscan3_theta=0.15.raw)
+_FILEVERSION = 2
+_SAMPLE = 
+_+SAMPLE = 
+_SITE = Dortmund
+_USER = "Metin Tolan"
+_GONIOMETER_CODE = 21
+_STAGE_CODE = 8
+; Goniometer : D8 theta/theta, stage : XYZ Drive(s)
+_SAMPLE_CHANGER_CODE = 0
+_ATTACHMENTS_CODE = 0
+_GONIOMETER_RADIUS = 300
+_FIXED_DIVSLIT = 0.15
+_FIXED_SAMPLESLIT = 1
+_SOLLER_SLITS = 2
+_FIXED_DETSLIT = 1
+_MONOCHROMATOR = 0
+; Incident beam monochromator : None
+_THIN_FILM = N
+_BETA_FILTER = N
+_FIXED_ANTISLIT = 0.15
+_ANALYZER_CODE = 0
+; Received beam analyzer : None
+_DATEMEASURED = "08-Jun-2022 12:51:51"
+_WL_UNIT = A
+_WL1 = 1.5406
+_WL2 = 1.54439
+_WL3 = 1.39222
+_WLRATIO = 0.5
+_ANODE = Cu
+
+; Data for range 1
+_DRIVE = Z
+_STEPTIME = 1
+_STEPSIZE = 0.02
+_STEPMODE = C
+_START = -10
+_THETA = 0.15
+_2THETA = 0.3
+_KHI = 0
+_PHI = 0
+_X = 19
+_Y = 15
+_Z = -10
+_DETECTOR = 1
+; Detector type : Scintillation counter
+_HV = 743.4
+_GAIN = 80
+_LLD = 0.98
+_ULD = 2.01
+_DETECTORSLIT = out
+_AUX1 = 0
+_AUX2 = 0
+_AUX3 = 0
+_TIMESTARTED = 2
+_TEMP_RATE = -1
+_TEMP_DELAY = -1
+_KV = 40
+_MA = 35
+_RANGE_WL = 1.5406
+_3DPLANE = 0
+_V4_COUNTERS_MASK = 1
+_V4_DRIVES_MASK = 0
+_V4_ENCODERS_MASK = 0
+_2THETACOUNTS = 1
+; Z  Cnt1_D1
+ -10.0000      79146
+  -9.9800     102566
+  -9.9600     135034
+  -9.9400     176128
+  -9.9200     225627
+  -9.9000     274325
+  -9.8800     395282
+  -9.8600     589238
+  -9.8400    1032580
+  -9.8200    2286380
+  -9.8000    5350400
+  -9.7800   10941200
+  -9.7600   18068100
+  -9.7400   25404000
+  -9.7200   28758400
+  -9.7000   27264100
+  -9.6800   22791500
+  -9.6600   15852700
+  -9.6400   10282800
+  -9.6200    6646200
+  -9.6000    3396250
+  -9.5800    1545280
+  -9.5600     699795
+  -9.5400     339650
+  -9.5200     195682
+  -9.5000     131571
+  -9.4800      90871
+  -9.4600      67249
+  -9.4400      50477
+  -9.4200      38235
+  -9.4000      27796

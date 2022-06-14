@@ -1,0 +1,117 @@
+; (content of file C:\Users\Michael\Desktop\PP_080622\zscan1.raw)
+_FILEVERSION = 2
+_SAMPLE = 
+_+SAMPLE = 
+_SITE = Dortmund
+_USER = "Metin Tolan"
+_GONIOMETER_CODE = 21
+_STAGE_CODE = 8
+; Goniometer : D8 theta/theta, stage : XYZ Drive(s)
+_SAMPLE_CHANGER_CODE = 0
+_ATTACHMENTS_CODE = 0
+_GONIOMETER_RADIUS = 300
+_FIXED_DIVSLIT = 0.15
+_FIXED_SAMPLESLIT = 1
+_SOLLER_SLITS = 2
+_FIXED_DETSLIT = 1
+_MONOCHROMATOR = 0
+; Incident beam monochromator : None
+_THIN_FILM = N
+_BETA_FILTER = N
+_FIXED_ANTISLIT = 0.15
+_ANALYZER_CODE = 0
+; Received beam analyzer : None
+_DATEMEASURED = "08-Jun-2022 12:21:24"
+_WL_UNIT = A
+_WL1 = 1.5406
+_WL2 = 1.54439
+_WL3 = 1.39222
+_WLRATIO = 0.5
+_ANODE = Cu
+
+; Data for range 1
+_DRIVE = Z
+_STEPTIME = 1
+_STEPSIZE = 0.04
+_STEPMODE = C
+_START = -10.5
+_THETA = 0
+_2THETA = 0.1104
+_KHI = 0
+_PHI = 0
+_X = 19
+_Y = 15
+_Z = -10.5
+_DETECTOR = 1
+; Detector type : Scintillation counter
+_HV = 743.4
+_GAIN = 80
+_LLD = 0.98
+_ULD = 2.01
+_DETECTORSLIT = out
+_AUX1 = 0
+_AUX2 = 0
+_AUX3 = 0
+_TIMESTARTED = 8
+_TEMP_RATE = -1
+_TEMP_DELAY = -1
+_KV = 40
+_MA = 35
+_RANGE_WL = 1.5406
+_3DPLANE = 0
+_V4_COUNTERS_MASK = 1
+_V4_DRIVES_MASK = 0
+_V4_ENCODERS_MASK = 0
+_2THETACOUNTS = 1
+; Z  Cnt1_D1
+ -10.5000     200922
+ -10.4600     195773
+ -10.4200     194763
+ -10.3800     190616
+ -10.3400     192218
+ -10.3000     191518
+ -10.2600     186884
+ -10.2200     191729
+ -10.1800     188678
+ -10.1400     191048
+ -10.1000     192324
+ -10.0600     189829
+ -10.0200     189301
+  -9.9800     187814
+  -9.9400     191403
+  -9.9000     188064
+  -9.8600     191575
+  -9.8200     189877
+  -9.7800     199376
+  -9.7400     213211
+  -9.7000     217164
+  -9.6600     210064
+  -9.6200     197649
+  -9.5800     192074
+  -9.5400     192247
+  -9.5000     167195
+  -9.4600      86505
+  -9.4200      13381
+  -9.3800        216
+  -9.3400        155
+  -9.3000        183
+  -9.2600        184
+  -9.2200        266
+  -9.1800        277
+  -9.1400        245
+  -9.1000        226
+  -9.0600        192
+  -9.0200        214
+  -8.9800        232
+  -8.9400        121
+  -8.9000         31
+  -8.8600          5
+  -8.8200          3
+  -8.7800          2
+  -8.7400          4
+  -8.7000          1
+  -8.6600          0
+  -8.6200          2
+  -8.5800          1
+  -8.5400          2
+  -8.5000          5
