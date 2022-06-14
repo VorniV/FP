@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Brechungsindex}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Fresnelsche Formeln}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Mehrschichtsystem}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Geometriefaktor}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Durchführung}{5}{section.2}%
+\contentsline {section}{\numberline {3}Auswertung}{6}{section.3}%
+\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}%
+\contentsline {section}{\nonumberline Literatur}{6}{section*.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -38,10 +38,10 @@ bei Röntgenstrahlung beinahe gleich sind ($n:= n_1 = n_2$), benötigt es diese 
 Somit lauten die fresnellschen Formeln für Röntgenstrahlung
 
 \begin{equation}
-    t = \frac{2 n cos(\alpha_1)}{n cos(\alpha_1) + n cos(\alpha_2)}
+    t = \frac{2 n \cdot cos(\alpha_1)}{n \cdot cos(\alpha_1) + n \cdot cos(\alpha_2)}
 \end{equation}
 \begin{equation}
-    r = \frac{n cos(\alpha_1) - n cos(\alpha_2)}{n cos(\alpha_1) + n cos(\alpha_2)}.
+    r = \frac{n \cdot cos(\alpha_1) - n \cdot cos(\alpha_2)}{n \cdot cos(\alpha_1) + n \cdot cos(\alpha_2)}.
 \end{equation}
 
 
@@ -51,9 +51,9 @@ Für den einfachsten Fall mit zwei ebenen Grenzflächen kommt es dadurch zur Kie
 
 \begin{figure}
     \centering
-    \label{fig:Kiessig-Oszillation}
     \includegraphics[width=0.6\textwidth]{Kiessig-Oszillation.png}
     \caption{Reflektivität eines Siliziumwafers mit einer 800 Å dicken Polystyrolschicht, in Abhängigkeit vom Einfallswinkel. \cite{Anleitungalt}}
+    \label{fig:Kiessig-Oszillation}
 \end{figure}
 
 In diesem Fall kann die Dicke der ersten Schicht durch 
@@ -66,7 +66,7 @@ Bei mehr als zwei Grenzflächen kommt es zur überlagerung der einzelnen Kiessig
 Die Reflektivität eines solchen Systems kann dann durch den rekursiven Parratt-Algorithmus bestimmt werden.
 
 \begin{equation}
-    X_j = \frac{R_j}{T_j} = exp(-2i k_{z,j} z_j) \cdot \frac{r_{j,j+1} + X_{j+1} exp(2i k_{z,j+1} z_j) }{1 + r_{j,j+1} X_{j+1} exp(2i k_{z,j+1 z_j})}
+    X_j = \frac{R_j}{T_j} = \text{exp}(-2i k_{z,j} z_j) \cdot \frac{r_{j,j+1} + X_{j+1} \text{exp}(2i k_{z,j+1} z_j) }{1 + r_{j,j+1} X_{j+1} \text{exp}(2i k_{z,j+1 z_j})}
 \end{equation}
 Mit $z_j$ der j-ten Grenzschicht, $r_{j,j+1}$ die Fresnelreflektivität der j-ten Grenzschicht und $k_{z,j}$ die z-Komponente des Wellenvektors in der j-ten Schicht.
 Zur Berechnung wird angenommen, dass die unterste Schicht und das Vakuum unendlich weit ausgedehnt sind. Dadurch wird die von der (N+1)-ten Schicht transmittierte 
@@ -81,10 +81,10 @@ Dabei beschreibt $z_j$ die Position der j-ten Grenzschicht und $P_j(z)$ die Wahr
 Mit diesem anpassendem Term werden die Fresnelkoeffizienten zu 
 
 \begin{equation}
-    \tilde{r_{j,j+1}} = r_{j,j+1} exp \left(-2 k_{z,j} k_{z,j+1} \sigma_j^2\right)
+    \tilde{r}_{j,j+1} = r_{j,j+1} \text{exp} \left(-2 k_{z,j} k_{z,j+1} \sigma_j^2\right)
 \end{equation}
 \begin{equation}
-    \tilde{t_{j,j+1}} = t_{j,j+1} exp \left( \left(k_{z,j-k_{z,j+1}}\right)^2 \cdot \frac{\sigma_j^2}{2}\right).
+    \tilde{t}_{j,j+1} = t_{j,j+1} \text{exp} \left( \left(k_{z,j-k_{z,j+1}}\right)^2 \cdot \frac{\sigma_j^2}{2}\right).
 \end{equation}
 
 
@@ -102,8 +102,8 @@ Der Geometriefaktor sieht wie folgt aus:
 \begin{equation*}
     G = \left\{
         \begin{aligned}
-            \frac{D \: sin(\alpha_i)}{d_0} \text{für} \alpha_i < \alpha_g \\
-            1 \qquad \text{für} \alpha_i \geq \alpha_g
+            \frac{D \: sin(\alpha_i)}{d_0} \qquad \text{für} \: \alpha_i < \alpha_g \\
+            1 \qquad \qquad \text{für} \: \alpha_i \geq \alpha_g
         \end{aligned}
         \right
 \end{equation*}
