@@ -15,7 +15,7 @@ dabei ist $\delta$ eine Korrektur der Größenordnung $10^{-6}$ und $\beta$ besc
 Der Brechungsindex von Röntgenstrahlung ist kleiner als eins. Dadurch ist die äußere Totalreflektion möglich, also 
 die Totalreflektion innerhalb des Vakuums.
 Diese Totalreflektion findet unterhalb eines kritischen Winkels $\alpha_c$ statt.
-Mit Hilfe des snelliussches Brechungsgesetzes 
+Mit Hilfe des snelliusschen Brechungsgesetzes 
 
 \begin{equation}
     \frac{n_1}{n_2} = \frac{cos(\alpha_2)}{cos(\alpha_1)},
@@ -32,7 +32,7 @@ Dabei ist $r_e$ der klassische Elektronenradius, $\rho$ die Elektronendichte des
 
 
 \subsection{Fresnelsche Formeln}
-Wenn eine ebene elektromagnetische Welle auf eine ebene Fläche trifft, beschreiben die fresnellschen Formeln das den Anteil der transmittierten und reflektierten Intensität 
+Wenn eine ebene elektromagnetische Welle auf eine ebene Fläche trifft, beschreiben die fresnellschen Formeln den Anteil der transmittierten und reflektierten Intensität 
 im Verhältnis zur einfallenden Welle. Hierbei muss normalerweise zwischen p- und s-polarisiertem Licht unterschieden werden, doch da die Brechungsindices 
 bei Röntgenstrahlung beinahe gleich sind ($n:= n_1 = n_2$), benötigt es diese Unterscheidung nicht.
 Somit lauten die fresnellschen Formeln für Röntgenstrahlung
@@ -46,7 +46,7 @@ Somit lauten die fresnellschen Formeln für Röntgenstrahlung
 
 
 \subsection{Mehrschichtsystem}
-Gibt es anstatt wie bisher nicht nur eine, sondern mehrere Grenzflächen, so interferieren die von den verschiedenen grenzflächen reflektierten Wellen miteinander.
+Gibt es anstatt wie bisher nicht nur eine, sondern mehrere Grenzflächen, so interferieren die von den verschiedenen Grenzflächen reflektierten Wellen miteinander.
 Für den einfachsten Fall mit zwei ebenen Grenzflächen kommt es dadurch zur Kiessig-Oszillation, welche in Abbildung \ref{fig:Kiessig-Oszillation} zu sehen ist.
 
 \begin{figure}
@@ -61,9 +61,9 @@ In diesem Fall kann die Dicke der ersten Schicht durch
 \begin{equation}
     d = \frac{\lambda}{2 \Delta \alpha_i}
 \end{equation}
-bestimmt werden. Dabei ist $\Delta \alpha_i$ der Abstand zweier Minima oder Maxima.
-Bei mehr als zwei Grenzflächen kommt es zur überlagerung der einzelnen Kiessig-Oszillationen. 
-Die Reflektivität eines solchen Systems kann dann durch den rekursiven Parratt-Algorithmus bestimmt werden.
+bestimmt werden. Dabei ist $\Delta \alpha_i$ der Abstand zweier Minima oder Maxima und $\lambda$ die Wellenlänge der Röntgenstrahlung.
+Bei mehr als zwei Grenzflächen kommt es zur Überlagerung der einzelnen Kiessig-Oszillationen. 
+Die Reflektivität eines solchen Systems kann durch den rekursiven Parratt-Algorithmus bestimmt werden.
 
 \begin{equation}
     X_j = \frac{R_j}{T_j} = \text{exp}(-2i k_{z,j} z_j) \cdot \frac{r_{j,j+1} + X_{j+1} \text{exp}(2i k_{z,j+1} z_j) }{1 + r_{j,j+1} X_{j+1} \text{exp}(2i k_{z,j+1 z_j})}
@@ -72,13 +72,13 @@ Mit $z_j$ der j-ten Grenzschicht, $r_{j,j+1}$ die Fresnelreflektivität der j-te
 Zur Berechnung wird angenommen, dass die unterste Schicht und das Vakuum unendlich weit ausgedehnt sind. Dadurch wird die von der (N+1)-ten Schicht transmittierte 
 Strahlung, nicht erneut reflektiert und es gilt $R_{N+1} = X_{N+1} = 0$.
 Dies ist der Startwert der Rekursion.
-Werden die Oberflächen der Schichten nun nichtmehr als glatt angenommen, wird die "root-mean-square"-Rauigkeit eingeführt:
+Werden die Oberflächen der Schichten nun nichtmehr als glatt angenommen, wird die \glqq root-mean-square\grqq{}-Rauigkeit eingeführt:
 
 \begin{equation}
     \sigma_j^2 = \int (z - z_j)^2 \: P_j(z) dz.
 \end{equation}
 Dabei beschreibt $z_j$ die Position der j-ten Grenzschicht und $P_j(z)$ die Wahrscheinlichkeit, dass sich die Grenzschicht im Bereich $[z_j + z, z_j + z + dz]$ befindet.
-Mit diesem anpassendem Term werden die Fresnelkoeffizienten zu 
+Mit diesem anpassenden Term werden die Fresnelkoeffizienten zu 
 
 \begin{equation}
     \tilde{r}_{j,j+1} = r_{j,j+1} \text{exp} \left(-2 k_{z,j} k_{z,j+1} \sigma_j^2\right)
@@ -103,7 +103,7 @@ Der Geometriefaktor sieht wie folgt aus:
     G = \left\{
         \begin{aligned}
             \frac{D \: sin(\alpha_i)}{d_0} \qquad \text{für} \: \alpha_i < \alpha_g \\
-            1 \qquad \qquad \text{für} \: \alpha_i \geq \alpha_g
+            1 \qquad \qquad \text{für} \: \alpha_i \geq \alpha_g.
         \end{aligned}
         \right
 \end{equation*}
