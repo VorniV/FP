@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Durchführung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Auswertung}{4}{section.2}%
+\contentsline {section}{\numberline {3}Diskussion}{5}{section.3}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

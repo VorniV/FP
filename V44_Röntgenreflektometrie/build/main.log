@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  14 JUN 2022 20:41
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  15 JUN 2022 00:47
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1405,7 +1405,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 Package hyperref Info: Link coloring OFF on input line 11.
@@ -1464,26 +1464,75 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \openout4 = main.toc
  [2
 
-] (./content/theorie.tex [3]
-<Kiessig-Oszillation.png, id=36, 805.0075pt x 509.905pt>
-File: Kiessig-Oszillation.png Graphic file (type png)
-<use Kiessig-Oszillation.png>
-Package luatex.def Info: Kiessig-Oszillation.png  used on input line 54.
-(luatex.def)             Requested size: 250.95587pt x 158.95589pt.
- [4<./Kiessig-Oszillation.png>]
-! Missing delimiter (. inserted).
-<to be read again> 
-$
-l.109 \end{equation*}
-                   
+] (./content/durchfuehrung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[3]) (./content/auswertung.tex
+<build/detektorscan.pdf, id=33, 417.7206pt x 258.0049pt>
+File: build/detektorscan.pdf Graphic file (type pdf)
+<use build/detektorscan.pdf>
+Package luatex.def Info: build/detektorscan.pdf  used on input line 8.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+<build/messwerte_relativ.pdf, id=34, 417.7206pt x 258.0049pt>
+File: build/messwerte_relativ.pdf Graphic file (type pdf)
+<use build/messwerte_relativ.pdf>
+Package luatex.def Info: build/messwerte_relativ.pdf  used on input line 16.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+) (./content/diskussion.tex [4<./build/detektorscan.pdf>])
+
+LaTeX Warning: Empty bibliography on input line 23.
+
+[5<./build/messwerte_relativ.pdf>] (./build/main.aux)
+Package rerunfilecheck Info: File `main.aux' has not changed.
+(rerunfilecheck)             Checksum: 4AF6CFA864C16E9B3D8D42B40A990B58;3302.
+Package rerunfilecheck Info: File `main.toc' has not changed.
+(rerunfilecheck)             Checksum: 381CA98392AFB371A2BCAB0D1738D9CE;393.
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
 
 Here is how much of LuaTeX's memory you used:
- 35368 strings out of 479059
+ 35187 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 11125 words of node memory still in use:
-   125 hlist, 11 vlist, 7 rule, 79 disc, 7 local_par, 20 dir, 22 math, 189 glue, 87 kern, 33 penalty, 4 noad, 2 fence, 2 math_char, 2 sub_box, 2 delim, 7 margin_kern, 802 glyph, 204 attribute, 77 glue_spec, 104 attribute_list, 2 temp, 1 write, 4 pdf_dest nodes
-   avail lists: 1:3,2:138,3:108,4:27,5:293,6:22,7:3511,8:88,9:176,10:10,11:397
- 53681 multiletter control sequences out of 65536+600000
- 106 fonts using 36820955 bytes
- 110i,10n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 659 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 10 attribute, 78 glue_spec, 7 attribute_list, 1 write nodes
+   avail lists: 1:3,2:242,3:69,4:53,5:396,6:18,7:6869,8:11,9:126,10:16,11:648
+ 53473 multiletter control sequences out of 65536+600000
+ 103 fonts using 36425107 bytes
+ 110i,6n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+</home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (5 pages, 59550 bytes).
+
+PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 131072)
+ 25 words of extra memory for PDF output out of 10000 (max. 100000000)
+
