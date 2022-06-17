@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  15 JUN 2022 00:47
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.10.25)  17 JUN 2022 01:43
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1495,44 +1495,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
  []
 
 [3]) (./content/auswertung.tex
-<build/detektorscan.pdf, id=33, 417.7206pt x 258.0049pt>
+<build/detektorscan.pdf, id=34, 417.7206pt x 258.0049pt>
 File: build/detektorscan.pdf Graphic file (type pdf)
 <use build/detektorscan.pdf>
-Package luatex.def Info: build/detektorscan.pdf  used on input line 8.
+Package luatex.def Info: build/detektorscan.pdf  used on input line 12.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-<build/messwerte_relativ.pdf, id=34, 417.7206pt x 258.0049pt>
+<build/messwerte_relativ.pdf, id=36, 417.7206pt x 258.0049pt>
 File: build/messwerte_relativ.pdf Graphic file (type pdf)
 <use build/messwerte_relativ.pdf>
-Package luatex.def Info: build/messwerte_relativ.pdf  used on input line 16.
+Package luatex.def Info: build/messwerte_relativ.pdf  used on input line 28.
 (luatex.def)             Requested size: 417.71957pt x 258.00426pt.
-) (./content/diskussion.tex [4<./build/detektorscan.pdf>])
+ [4<./build/detektorscan.pdf>]
+<build/silizium.pdf, id=71, 417.7206pt x 258.0049pt>
+File: build/silizium.pdf Graphic file (type pdf)
+<use build/silizium.pdf>
+Package luatex.def Info: build/silizium.pdf  used on input line 36.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+<build/zscan.pdf, id=74, 417.7206pt x 258.0049pt>
+File: build/zscan.pdf Graphic file (type pdf)
+<use build/zscan.pdf>
+Package luatex.def Info: build/zscan.pdf  used on input line 44.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+ [5<./build/messwerte_relativ.pdf>]
+<build/rocking.pdf, id=108, 417.7206pt x 258.0049pt>
+File: build/rocking.pdf Graphic file (type pdf)
+<use build/rocking.pdf>
+Package luatex.def Info: build/rocking.pdf  used on input line 51.
+(luatex.def)             Requested size: 417.71957pt x 258.00426pt.
+ [6<./build/silizium.pdf><./build/zscan.pdf>]
+
+LaTeX Warning: Reference `eqn:dicke' on page 7 undefined on input line 65.
+
+[7<./build/rocking.pdf>]) (./content/diskussion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--22
+
+ []
+
 
 LaTeX Warning: Empty bibliography on input line 23.
 
-[5<./build/messwerte_relativ.pdf>] (./build/main.aux)
+[8] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 4AF6CFA864C16E9B3D8D42B40A990B58;3302.
+(rerunfilecheck)             Checksum: 88F349C4D69CEFB7A7614945745F8C01;4454.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 381CA98392AFB371A2BCAB0D1738D9CE;393.
+(rerunfilecheck)             Checksum: 1C37AD643AE906EDCACD03CB82D01445;393.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 35187 strings out of 479059
+ 35335 strings out of 479059
  100000,1977958 words of node,token memory allocated
- 659 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 10 attribute, 78 glue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 1:3,2:242,3:69,4:53,5:396,6:18,7:6869,8:11,9:126,10:16,11:648
- 53473 multiletter control sequences out of 65536+600000
- 103 fonts using 36425107 bytes
- 110i,6n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
-</home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 59550 bytes).
+ 685 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 21 attribute, 77 glue_spec, 12 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1416,3:142,4:58,5:736,6:22,7:6874,8:35,9:710,10:17,11:646
+ 53596 multiletter control sequences out of 65536+600000
+ 149 fonts using 54064707 bytes
+ 110i,16n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+</home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/gusfring/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (8 pages, 110173 bytes).
 
-PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 131072)
+PDF statistics: 257 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 131072)
  25 words of extra memory for PDF output out of 10000 (max. 100000000)
 

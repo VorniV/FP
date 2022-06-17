@@ -1,7 +1,11 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-Zuerst werden die Daten des Detektorscans an eine Gaussfunktion angepasst, um die Halbwertsbreite und die maximale Intensität zu bestimmen.
+Zuerst werden die Daten des Detektorscans an eine Gaussfunktion angepasst, um die Halbwertsbreite und die maximale Intensität zu bestimmen. Als Formel für die Gausskurve wurde dabei 
+\begin{equation*}
+  I(\theta) = \frac{a}{\sigma\sqrt{2\pi}} \exp\left( \frac{-\left( \theta - \theta_0\right)^2}{2 \sigma} \right)
+\end{equation*}
+genutzt. Die Originaldaten des Detektorscans und die Ausgleichskurve sind in Abbildung \ref{fig:detektor} zu sehen.
 
 \begin{figure}[H]
     \centering
@@ -9,11 +13,77 @@ Zuerst werden die Daten des Detektorscans an eine Gaussfunktion angepasst, um di
     \caption{Daten des Detektorscans angepasst an eine Gausskurve.}
     \label{fig:detektor}
   \end{figure}
+Aus dem Fit ergeben sich die Werte:
+\begin{align*}
+  a &= \num{3.039(16)e6} \\
+  \theta_0 &= \SI{0.0040(1)}{\degree} , \\
+  \sigma &= \SI{0.0209(1)}{\degree}\,. \\
+  \end{align*}
+Aus diesen Werten erhält man für die maximale Intensität $ \frac{a}{\sigma\sqrt{2\pi}}=$ \num{58.030(465)e6} Events als Maximum. 
+Die Halbwertsbreite beträgt $2 \sqrt{2 \ln 2} \, \sigma$, also hier \SI{0.0492(3)}{\degree}.
 
-Der diffuse Scan wurde von dem Reflektivitätsscan abgezogen.
+Anschließend wird der diffuse Scan von dem Reflektivitätsscan abgezogen, um die korrigierten Messwerte zu erhalten. Diese sind in Abbildung \ref{fig:messwerte} dargestellt.
   \begin{figure}[H]
     \centering
     \includegraphics{build/messwerte_relativ.pdf}
-    \caption{Daten des Detektorscans angepasst an eine Gausskurve.}
-    \label{fig:messwerte_relativ}
+    \caption{Messwerte des Reflektivitätsscans, des diffusen Scans und die korrigierten Messwerte.}
+    \label{fig:messwerte}
   \end{figure}
+
+Als nächstes werden die Werte am Winkel des zweiten Maximums (\SI{0.315}{\degree}) normiert und dann neben der Theoriekurve der Fresnelreflektivität einer ideal glatten Siliziumoberfläche in Abbildung \ref{abb:norm} dargestellt. Dabei wurde als Wert für die Wellenlänge $\lambda = \SI{1.54e-10}{\meter}$ und für den Brechungsindex von Silizium $n = \num{1} - \num{7.6e-6} + \num{1.73i e-9}$ genutzt.
+\begin{figure}
+    \centering
+    \includegraphics{build/silizium.pdf}
+    \caption{Normierte Messwerte und Theoriekurve für eine ideal glatte Siliziumoberfläche.}
+    \label{abb:norm}
+\end{figure}
+
+Im nächsten Schritt der Auswertung wird der Geometriewinkel $\alpha_g$ aus den Daten, die bei der Justierung aufgenommen wurden, ermittelt. Die Messergebnisse aus dem z-Scan und aus dem Rocking-Scan sind in den Abbildungen \ref{fig:z} und \ref{fig:rocking} zu sehen. 
+  \begin{figure}[H]
+    \centering
+    \includegraphics{build/zscan.pdf}
+    \caption{Daten des z-Scans.}
+    \label{fig:z}
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics{build/rocking.pdf}
+    \caption{Daten des Rocking-Scans. (Absorber=100)}
+    \label{fig:rocking}
+  \end{figure}
+
+
+Für den Rocking-Scan beträgt der Geometriewinkel also $\alpha_g = \SI{0.4}{\degree}$. Daraus lässt sich zusammen mit dem abgemessenen Durchmesser der Probe ($D = \SI{21.5}{\milli\metre}$) die Strahlhöhe berechnen und es ergibt sich $d_0 = \SI{0.15}{\milli\meter}$ und ein Geometriefaktor von $G = \num{143.33} \cdot \sin \alpha_i$ für alle Winkel $\alpha_i$, die kleiner als der Geometriewinkel $\alpha_g$ sind.
+Alternativ lässt sich der Geometriewinkel mit der Gleichung 
+\begin{equation*}
+  \alpha_g = \arcsin\left( \frac{d}{D} \right)
+\end{equation*}
+bestimmen, wobei sich die Strahlbreite $d$ aus dem z-Scan in Abbildung \ref{fig:z} zu $d = \SI{0.16}{\milli\meter}$ ablesen lässt.
+Damit kann für den Geometriewinkel $\alpha_g = \SI{0.43}{\degree}$ berechnet werden.
+
+Desweiteren wird die Schichtdicke aus den Kiessig-Oszillationen bestimmt. Dafür konnten aus den Messwerten 9 eindeutige Minima abgelesen werden, deren Daten in \autoref{tab:kiessig} aufgelistet sind. Mit Gleichung \autoref{eqn:dicke} lässt sich aus diesen Daten die Schichtdicke bestimmen, die ebenfalls in \autoref{tab:kiessig} aufgelistet ist. Dabei ist zu beachten, dass die gemessenen Werte für die Winkel ins Bogenmaß umgerechnet und halbiert werden müssen.
+
+\begin{table}[H] 
+  \caption{Winkel der Minima der Kiessig-Oszillationen.}
+    \label{tab:kiessig}
+    \centering
+  %  \sisetup{round-mode =places, round-integer-to-decimal=true, round-precision=3}
+    \begin{tabular}{S[] S[] S[] }
+        \toprule
+        {$\alpha_i / \si{\degree}$} & {$\alpha_{i+1} - \alpha_{i} / \si{\degree}$} & {$d / \si{\angstrom}$} \\
+        \midrule
+        0.295 & 0.045   & 980.4  \\
+        0.34 & 0.0475   & 928.8  \\
+        0.3875 & 0.05   & 882.4  \\
+        0.4375 & 0.05   & 882.4  \\
+        0.4875 & 0.05   & 882.4  \\
+        0.5375 & 0.0525  & 840.2  \\
+        0.59 & 0.0525   & 840.2  \\
+        0.6425 & 0.0525  & 840.2  \\
+        0.695 &    &   \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Im Mittel beträgt die so berechnete Schichtdicke also $\bar{d} = (884.6 \pm 49.4) \text{\AA}$.
