@@ -24,11 +24,11 @@ print(par[0],par[1], par[2] ,errpar[0], errpar[1], errpar[2])
 
 x = np.linspace(0, 9)
 
-plt.plot(I, B, 'x', color='r', label='Messwerte B')
+plt.plot(I, B, 'x', color='r', label='Messwerte')
 plt.plot(x, Mag(x, *par), '-', color='b', label='Ausgleichskurve')
 plt.xlim(0,9)
-plt.xlabel(r'Stromstärke I [A]')
-plt.ylabel(r'Magnetfeldstärke B [T]')
+plt.xlabel(r'Stromstärke I / A')
+plt.ylabel(r'Magnetfeldstärke B / T')
 plt.ylim(0, 0.6)
 plt.legend(loc='best')
 

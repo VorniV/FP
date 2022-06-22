@@ -4,19 +4,21 @@
 \subsection{Eichung des Magnetfeldes}
 \label{sec:Magnetfeld}
 Zu Beginn des Versuchs muss das Magnetfeld, durch das später die Aufspaltung der Energieniveaus hervorgerufen wird, geeicht werden. 
-Dafür wird mit hilfe einer Hall-Sonde die Magnetfeldstärke $\vec{B}$ des verwendeten Elektromagneten, in Abhängigkeit von dem 
+Dafür wird mit Hilfe einer Hall-Sonde die Magnetfeldstärke $\vec{B}$ des verwendeten Elektromagneten, in Abhängigkeit von dem 
 angeschlossenen Strom $I$ bestimmt.
 Die Messwerte sind in Tabelle \ref{tab:Magnetfeld} aufgelistet.
 In Abbildung \ref{fig:Magnetfeld} sind die Messwerte zusammen mit einer Ausgleichskurve der Form,
 
 \begin{equation}
-  f(x) = a x^2 + b x + c ,
+  B(I) = a I^2 + b I + c ,
 \end{equation}
   eingetragen.
   Die Parameter, zur Berechnung der genutzten Magnetfeldstärke, lauten: \\
-  $a = -5,70 \pm 0,27$ mT \\
-  $b = 119,03 \pm 2,27$ mT \\
+  \begin{center}
+  $a = -5,70 \pm 0,27 \frac{\text{mT}}{\text{A}^2}$ \\
+  $b = 119,03 \pm 2,27 \frac{\text{mT}}{\text{A}}$ \\
   $c = -5,25 \pm 3,92$ mT \\
+  \end{center}
  
 
 \begin{table}
@@ -27,7 +29,7 @@ In Abbildung \ref{fig:Magnetfeld} sind die Messwerte zusammen mit einer Ausgleic
 
   \begin{tabular}{r r | r r}
     \toprule
-    I [A] & B [mT] & I [A] & B [mT] \\
+    I / A & B / mT & I / A & B / mT \\
     \midrule
     0   & 7,6   & 4,5   & 418,7 \\
     0,5 & 54,2  & 5     & 454,3 \\
@@ -53,7 +55,8 @@ In Abbildung \ref{fig:Magnetfeld} sind die Messwerte zusammen mit einer Ausgleic
 
 \subsection{Rote Spektrallinie}
 Abbildung \ref{fig:rot} zeigt die Spektrallinien der Wellenlänge $\lambda = 643,8$ nm. Dabei ist die obere Hälfte ohne Magnetfeld 
-entstanden und die untere Hälfte mit Magnetfeld. Die Elektromagneten wurden mit $I = 8$ A betrieben, was aus Kapitel \ref{sec:Magnetfeld} 
+entstanden und die untere Hälfte mit Magnetfeld. Durch das Verwenden eines Polarisationsfilters, zeigt die untere Hälfte nur die Emission des $\sigma$-Übergangs. 
+Die Elektromagneten wurden mit $I = 8$ A betrieben, was aus Kapitel \ref{sec:Magnetfeld} 
 einer Magnetfeldstärke von $B = 582,43 \pm 25.57$ mT entspricht.
 
 \begin{figure}[H]
@@ -63,6 +66,7 @@ einer Magnetfeldstärke von $B = 582,43 \pm 25.57$ mT entspricht.
   \caption{Interferenzmuster der Cd-Lampe für die rote Linie, mit und ohne Magnetfeld.}
   \label{fig:rot}
 \end{figure}
+
 Mit der Formel 
 
 \begin{equation}
@@ -97,8 +101,10 @@ und den Werten aus Tabelle \ref{tab:Rot}, kann nun die Wellenlängenverschiebung
 
 Zudem wird die Wellenlänge des Dispersionsgebiets $\lambda_D = 48,94$ pm benötigt.
 Aus all diesen Werten ergibt sich eine Wellenlängenverschiebung von: \\
-$\delta \lambda = 11,76 \pm 0,09$ pm
 
+\begin{center}
+$\delta \lambda = 11,76 \pm 0,09$ pm. \\
+\end{center}
 Mit dieser Wellenlänngenverschiebung kann der Lande-Faktor berechnet werden.
 Dafür wird zunächst
 
@@ -118,14 +124,16 @@ Daraus ergibt sich für den Lande-Faktor,
 \begin{equation}
   g = \delta \lambda \frac{hc}{\mu_B B \lambda^2}.
 \end{equation}
-Somit ist der Lande-Faktor für die Rote Spektrallinie:\\
-$g = 1,04 \pm 0,05$
+Somit ist der Lande-Faktor für die rote $\sigma$-Spektrallinie:\\
+\begin{center}
+$g = 1,04 \pm 0,05$.
+\end{center}
 
 
 \subsection{Blaue Spektrallinie}
 Abbildung \ref{fig:BlauS} zeigt die Blaue Spektrallinie der Wellenlänge $\lambda = 480$ nm. 
 Im oberen Bereich sind die Linien ohne Magnetfeld zu sehen und im unteren mit Magnetfeld. Durch den Polarisationsfilter sind lediglich die $\sigma$-Linien sichtbar.
-An den Elektromagneten sind in dem Fall $I = 3,75$ A angeschlossen, was nach Kapitel \ref{sec:Magnetfeld} $B = 361,02 \pm 10,14$ mT sind.
+An den Elektromagneten sind in dem Fall $I = 3,75$ A angeschlossen, was nach Kapitel \ref{sec:Magnetfeld}, $B = 361,02 \pm 10,14$ mT sind.
 
 \begin{figure}[H]
   \centering
@@ -134,6 +142,7 @@ An den Elektromagneten sind in dem Fall $I = 3,75$ A angeschlossen, was nach Kap
   \caption{Interferenzmuster der Cd-Lampe für die blaue $\sigma$-Linie, mit und ohne Magnetfeld.}
   \label{fig:BlauS}
 \end{figure}
+
 In Tabelle \ref{tab:BlauS} sind die Abstände der verschiedenen Maxima, des Interferenzmusters mit und ohne Manetfeld, aufgelistet.
 
 \begin{table}
@@ -160,11 +169,15 @@ In Tabelle \ref{tab:BlauS} sind die Abstände der verschiedenen Maxima, des Inte
   \end{tabular}
 \end{table}
 
-Zusammen mit Gleichung \eqref{equ:Wellenlänge} und der Wellenlänge des Dispersionsgebiets für die blauen Spektrallinien $\lambda_D = 26,95$ pm ergibt sich 
-daraus eine Wellenlängenverschiebung von: \\
-$\delta \lambda = 6,79 \pm 0,11$ pm\\
+Zusammen mit Gleichung \eqref{equ:Wellenlänge} und der Wellenlänge des Dispersionsgebiets für die blauen Spektrallinien $\lambda_D = 26,95$ pm, ergibt sich 
+eine Wellenlängenverschiebung von: \\
+\begin{center}
+$\delta \lambda = 6,79 \pm 0,11$ pm.\\
+\end{center}
 Der Lande-Faktor wird mit Hilfe von Formel \eqref{equ:Lande} berechnet:\\
-$g = 1,75 \pm 0,06$
+\begin{center}
+$g = 1,75 \pm 0,06$.
+\end{center}
 
 
 
