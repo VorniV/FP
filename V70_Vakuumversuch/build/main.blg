@@ -1,35 +1,35 @@
-[2] Config.pm:312> INFO - This is Biber 2.15
-[4] Config.pm:315> INFO - Logfile is 'build/main.blg'
-[564] biber:330> INFO - === Fri May 20, 2022, 00:30:49
-[649] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[1106] Biber.pm:952> INFO - Found 19 citekeys in bib section 0
-[1189] Biber.pm:4334> INFO - Processing section 0
-[1254] Biber.pm:4523> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[1295] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1319] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
-[1470] Biber.pm:4523> INFO - Looking for bibtex format file 'programme.bib' for section 0
-[1481] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1506] bibtex.pm:1494> INFO - Found BibTeX data source 'programme.bib'
-[1520] Utils.pm:395> WARN - I didn't find a database entry for 'S.9' (section 0)
-[1521] Utils.pm:395> WARN - I didn't find a database entry for 'S.10' (section 0)
-[1521] Utils.pm:395> WARN - I didn't find a database entry for 'S.11' (section 0)
-[1522] Utils.pm:395> WARN - I didn't find a database entry for 'S.12' (section 0)
-[1522] Utils.pm:395> WARN - I didn't find a database entry for 'S82' (section 0)
-[1523] Utils.pm:395> WARN - I didn't find a database entry for 'S.62' (section 0)
-[1524] Utils.pm:395> WARN - I didn't find a database entry for '63' (section 0)
-[1524] Utils.pm:395> WARN - I didn't find a database entry for 'S.60' (section 0)
-[1525] Utils.pm:395> WARN - I didn't find a database entry for '61' (section 0)
-[1526] Utils.pm:395> WARN - I didn't find a database entry for 'S.83' (section 0)
-[1526] Utils.pm:395> WARN - I didn't find a database entry for '84' (section 0)
-[1527] Utils.pm:395> WARN - I didn't find a database entry for 'S.93' (section 0)
-[1527] Utils.pm:395> WARN - I didn't find a database entry for '94' (section 0)
-[1528] Utils.pm:395> WARN - I didn't find a database entry for 'S.94' (section 0)
-[1528] Utils.pm:395> WARN - I didn't find a database entry for '95' (section 0)
-[1528] Utils.pm:395> WARN - I didn't find a database entry for 'S.92' (section 0)
-[1586] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1587] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1587] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[1588] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
-[1621] bbl.pm:651> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[1627] bbl.pm:754> INFO - Output to build/main.bbl
-[1628] Biber.pm:128> INFO - WARNINGS: 16
+[0] Config.pm:312> INFO - This is Biber 2.15
+[2] Config.pm:315> INFO - Logfile is 'build/main.blg'
+[258] biber:330> INFO - === Fri Jun 24, 2022, 14:20:20
+[383] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[620] Biber.pm:952> INFO - Found 19 citekeys in bib section 0
+[672] Biber.pm:4334> INFO - Processing section 0
+[753] Biber.pm:4523> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[784] bibtex.pm:1682> INFO - LaTeX decoding ...
+[811] bibtex.pm:1494> INFO - Found BibTeX data source 'lit.bib'
+[941] Biber.pm:4523> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[952] bibtex.pm:1682> INFO - LaTeX decoding ...
+[988] bibtex.pm:1494> INFO - Found BibTeX data source 'programme.bib'
+[998] Utils.pm:395> WARN - I didn't find a database entry for 'S.9' (section 0)
+[1000] Utils.pm:395> WARN - I didn't find a database entry for 'S.10' (section 0)
+[1000] Utils.pm:395> WARN - I didn't find a database entry for 'S.11' (section 0)
+[1001] Utils.pm:395> WARN - I didn't find a database entry for 'S.12' (section 0)
+[1007] Utils.pm:395> WARN - I didn't find a database entry for 'S.82' (section 0)
+[1009] Utils.pm:395> WARN - I didn't find a database entry for 'S.62' (section 0)
+[1011] Utils.pm:395> WARN - I didn't find a database entry for '63' (section 0)
+[1014] Utils.pm:395> WARN - I didn't find a database entry for 'S.60' (section 0)
+[1023] Utils.pm:395> WARN - I didn't find a database entry for '61' (section 0)
+[1033] Utils.pm:395> WARN - I didn't find a database entry for 'S.83' (section 0)
+[1037] Utils.pm:395> WARN - I didn't find a database entry for '84' (section 0)
+[1041] Utils.pm:395> WARN - I didn't find a database entry for 'S.93' (section 0)
+[1044] Utils.pm:395> WARN - I didn't find a database entry for '94' (section 0)
+[1046] Utils.pm:395> WARN - I didn't find a database entry for 'S.94' (section 0)
+[1048] Utils.pm:395> WARN - I didn't find a database entry for '95' (section 0)
+[1050] Utils.pm:395> WARN - I didn't find a database entry for 'S.92' (section 0)
+[1082] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1084] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1085] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[1086] Biber.pm:4168> INFO - No sort tailoring available for locale 'de-DE'
+[1142] bbl.pm:651> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[1147] bbl.pm:754> INFO - Output to build/main.bbl
+[1162] Biber.pm:128> INFO - WARNINGS: 16
