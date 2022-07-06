@@ -1,6 +1,183 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+In der Auswertung wird zuerst die maximale Kraftflussdichte des B-Feldes ermittelt und anschließend wird die effektive Masse der Leitungselektronen im n-dotierten Galliumarsenid über die gemessenen Winkel mittels Faraday-Rotation bestimmt.
+
+\subsection{Messung der Kraftflussdichte $B(z)$}
+Die Messergebnisse für die Kraftflussdichte $B(z)$ in der Nähe des
+Luftspaltes bei maximalem Feldstrom mit einer Hallsonde sind im Folgenden aufgelistet:
+
+\begin{table}[H]
+    \centering
+    \caption{Gemessene Kraftflussdichte B(z) zu verschiedenen Messpositionen}
+    \label{tab:bfeld}
+    \begin{tabular}{ll}
+        \toprule
+    z [$\si{\milli\meter}$] & B [$\si{\milli\tesla}$] \\
+        \midrule
+    100    & 83     \\
+    101    & 115    \\
+    102    & 163    \\
+    103    & 215    \\
+    104    & 286    \\
+    105    & 335    \\
+    106    & 366    \\
+    107    & 385    \\
+    108    & 398    \\
+    109    & 407    \\
+    110    & 413    \\
+    111    & 417    \\
+    112    & 420    \\
+    113    & 421    \\
+    114    & 421    \\
+    115    & 419    \\
+    116    & 416    \\
+    117    & 412    \\
+    118    & 405    \\
+    119    & 395    \\
+    120    & 381    \\
+    121    & 362    \\
+    122    & 335    \\
+    123    & 297    \\
+    124    & 251    \\
+    125    & 198   \\
+        \bottomrule    
+    \end{tabular}
+    \end{table}
+
+Diese Messwerte sind in \autoref{fig:bfeld} graphisch dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{build/bfeld.pdf}
+    \caption{Kraftflussdichte B(z) abhängig von der Messposition z.}
+    \label{fig:bfeld}
+\end{figure}
+
+Die maximale Kraftflussdichte des Magnetfeldes beträgt also
+\begin{equation*}
+    B = \SI{421}{\milli\tesla}.
+\end{equation*}
+
+\subsection{Bestimmung der effektiven Masse mittels Faraday Rotation}
+In diesem Abschnitt wird die effektive Masse der Leitungselektronen von Galliumarsenid bestimmt. In \autoref{tab:proben} sind die Werte zu den 3 genutzten Proben aufgelistet.
+\begin{table} \caption{Die Werte für die Dicken und die Donatorenkonzentrationen für die reine GaAs-Probe und die beiden n-dotierten GaAs-Proben.}
+    \label{tab:proben}
+    \centering
+    \begin{tabular}{S[] S[] S[] S[]}
+        \toprule
+        {} & {Reine Probe} & {Probe 1} & {Probe 2} \\
+        \midrule
+        \text{Dicke} $d / \si{\milli\meter}$ & 5.11 & 1.36 & 1.296 \\
+        \text{Donatorendichte} $N / \si[per-mode=reciprocal]{\per\cubic\centi\meter}$ &  & 1.2e18 & 2.8e18 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+In \autoref{tab:winkel} sind die Messergebnisse für die Winkel für die 3 Proben zu den 9 Wellenlängen aufgelistet.
+\begin{table}[H]
+    \centering
+    \caption{Messwerte für die 3 Proben bei 9 verschiedenen Filtern.}
+    \label{tab:winkel}
+    \begin{tabular}{lllllll}
+        \toprule
+        Wellenlänge Filter [$\si{\micro\meter}$] & \multicolumn{2}{l}{Winkel Probe 1 [$\si{\degree}$,']} & \multicolumn{2}{l}{Winkel Probe 2 [$\si{\degree}$,']}  & \multicolumn{2}{l}{Winkel reine Probe [$\si{\degree}$,']} \\
+        \midrule
+    1.06  & 84,20 & 74,26 & 85,25 & 74,0  & 90,25 & 67,40 \\
+    1.29  & 80,50 & 74,8  & 82,38 & 73,30 & 86,20 & 70,5  \\
+    1.45  & 83,5  & 75,53 & 83,40 & 74,46 & 85,50 & 72,50 \\
+    1.72  & 80,0  & 74,6  & 82,0  & 71,20 & 82,15 & 73,0  \\
+    1.96  & 75,0  & 68,50 & 77,40 & 66,39 & 75,40 & 69,5  \\
+    2.156 & 73,20 & 67,28 & 76,0  & 64,0  & 73,25 & 68,0  \\
+    2.34  & 10,35 & 4,0   & 53,0  & 39,20 & 48,32 & 43,50 \\
+    2.51  & 25,45 & 26,30 & 28,35 & 22,40 & 24,4  & 28,25 \\
+    2.65  & 67,0  & 58,47 & 71,31 & 57,25 & 63,18 & 58,46 \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+Wie in \autoref{tab:winkel} zu sehen ist, wurden zu jedem Filter und zu jeder Probe 2 Winkel aufgenommen. Um aus diesen 2 Winkeln einen auf die Länge skalierten Winkel zu erhalten, wird die Formel 
+\begin{equation}
+    \theta_{\text{KR}} = \frac{\theta_1 - \theta_2}{2d}
+\end{equation}
+genutzt. So ergeben sich die folgenden skalierten Winkel $\theta_{\text{KR}}$:
+
+\begin{table}[H]
+     \caption{Skalierte Rotationswinkel der drei Proben für die verschiedenen Wellenlängen.}
+    \label{tab:skaliert}
+    \centering
+    \begin{tabular}{cccc}
+        \toprule
+        {$\lambda / \si{\micro\meter}$} & {$\theta_{\text{KR}} \text{[Reine Probe]}/ \si[per-mode=fraction]{\radian\per\meter}$} & {$\theta_{\text{KR}} \text{[Probe 1]}/ \si[per-mode=fraction]{\radian\per\meter}$} & {$\theta_{\text{KR}} \text{[Probe 2]}/ \si[per-mode=fraction]{\radian\per\meter}$} \\
+        \midrule
+     1.06 &  38.85 &  63.52   &   76.87 \\
+     1.29 &  27.75 &  42.99   &   61.50 \\
+     1.45 &  22.20 &  46.20   &   59.93 \\
+     1.72 &  15.79 &  37.85   &   71.82 \\
+     1.96 &  11.24  & 39.56  &   74.18 \\
+     2.156&  9.25  &  37.64   &   80.80 \\
+     2.34 &  8.03  &  42.24   &   92.02 \\
+     2.51 &  -7.43 &  -4.81   &   39.84 \\
+     2.65 &  7.74 &  52.72   &   94.94 \\
+        
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+In \autoref{fig:winkel} sind die skalierten Winkel gegen die quadratische Wellenlänge aufgetragen.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{build/winkel.pdf}
+    \caption{Skalierte Winkel zur reinen und zu beiden n-dotierten Proben aufgetragen gegen die quadratische Wellenlänge.}
+    \label{fig:winkel}
+\end{figure}
 
 
+Im nächsten Schritt wird jeweils die Differenz des Rotationswinkels der reinen Probe und der beiden dotierten Proben gebildet, um die effektive Masse bestimmen zu können. So ergeben sich die folgenden Werte:
+\begin{table}[H] 
+    \caption{Die Wellenlänge ist gegen die Differenz zwischen der reinen Probe und den beiden n-dotierten Proben aufgelistet.}
+    \label{tab:frei}
+    \centering
+    \begin{tabular}{S[] S[] S[]}
+        \toprule
+        {$\lambda / \si{\micro\meter}$} & {$\theta_\text{frei,1}/ \si[per-mode=fraction]{\radian\per\meter}$} & {$\theta_\text{frei,2}/ \si[per-mode=fraction]{\radian\per\meter}$} \\
+        \midrule
+1.06    & 24.67  & 38.02 \\
+1.29    & 15.24  & 33.74 \\
+1.45    & 23.99 & 37.72 \\
+1.72    & 22.06 & 56.02 \\
+1.96    & 28.33  & 62.93 \\
+2.156   & 28.39  & 71.55 \\
+2.34    & 34.22  & 83.99 \\
+2.51    & 2.62  & 47.26 \\
+2.65    & 44.98  & 87.20 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+In \autoref{fig:probe1} und in \autoref{fig:probe2} sind diese Werte abhängig von der quadratischen Wellenlänge zusammen mit einer entsprechenden Ausgleichsgeraden dargestellt. 
 
-Siehe \autoref{fig:plot}!
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{build/Probe1.pdf}
+    \caption{Differenz der Rotationswinkel der reinen Probe und Probe 1 aufgetragen gegen die quadratische Wellenlänge mit einer Ausgleichsgeraden.}
+    \label{fig:probe1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{build/Probe2.pdf}
+    \caption{Differenz der Rotationswinkel der reinen Probe und Probe 2 aufgetragen gegen die quadratische Wellenlänge mit einer Ausgleichsgeraden.}
+    \label{fig:probe2}
+\end{figure}
+
+Als Steigungen der beiden Ausgleichsgeraden ergeben sich so:
+\begin{align*}
+    a_1 &= (5.4 \pm 1.1)*10^{12} \frac{\mathrm{rad}}{\mathrm{m^3}} \\
+    a_2 &= (13.3 \pm 1.4)*10^{12} \frac{\mathrm{rad}}{\mathrm{m^3}}
+\end{align*}
+
+Aus diesen Steigungen kann dann mit \autoref{eq:mass} die effektive Masse bestimmt werden. So folgt für die effektiven Massen
+\begin{align*}
+    m_\text{eff,1} &= (\num{0.083(9)}) \, m_\text{e} \\
+    m_\text{eff,2} &= (\num{0.081(4)}) \, m_\text{e},
+\end{align*}
+wobei $m_\text{e}$ der Elektronenmasse entspricht.
